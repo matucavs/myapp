@@ -1,5 +1,4 @@
 import React from "react";
-//import Saludo from "./Components/saludoDinamico";
 import ProductoCard from "./Components/productoCard";
 import NavbarTop from "./Components/navegacion";
 
@@ -7,7 +6,6 @@ import NavbarTop from "./Components/navegacion";
 const App = () => {
   return (
     <div>
-      {/* <Saludo /> */}
       <NavbarTop/>
       <ProductoCard
         nombre="Manzana Verde"
