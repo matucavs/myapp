@@ -6,7 +6,7 @@ function NavbarTop()  {
   return (
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Ejercicio 3</Navbar.Brand>
+          <Navbar.Brand href="#home">E-Commerce</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#">Home</Nav.Link>
             <Nav.Link href="#f">Productos</Nav.Link>

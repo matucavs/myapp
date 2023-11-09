@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
@@ -14,7 +14,7 @@ const ProductoCard = ({
 }) => {
   return (
     <Container className="d-flex justify-content-center align-items-center vh-100">
-      <Card className="mt-2 ml-2 bg-dark text-white">
+      <Card className="mt-1 ml-2 bg-dark text-white">
         <Card.Body>
           <Card.Title className="title">{nombre}</Card.Title>
           <div className="overlay"></div>
