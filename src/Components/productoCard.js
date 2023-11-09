@@ -17,6 +17,7 @@ const ProductoCard = ({
       <Card className="mt-2 ml-2 bg-dark text-white">
         <Card.Body>
           <Card.Title className="title">{nombre}</Card.Title>
+          <div className="overlay"></div>
           <Card.Img
             variant="top"
             src="https://img.freepik.com/fotos-premium/manzanas-verdes-bolsa-yute-gotas-agua-sobre-pared-oscura_168171-466.jpg"/>

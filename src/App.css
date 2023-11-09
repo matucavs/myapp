@@ -16,3 +16,16 @@
   right: 3rem;
   bottom: 3rem;
 }
+i{
+  
+  padding-right: 1rem;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)); /* Gradient que crea la transparencia */
+  pointer-events: none;
+}
