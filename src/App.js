@@ -10,8 +10,8 @@ const App = () => {
       <ProductoCard
         nombre="Manzana Verde"
         descripción="Manzana verde orgánica / agroecológica. Origen: Río Negro"
-        precio="300.00"
-        sku="123456"
+        precio="500.00"
+        sku="FRU-MNZ123456"
         cantidadDisponible="200"
       />
       <Footer/>
