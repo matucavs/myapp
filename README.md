@@ -1,17 +1,15 @@
-## Desarrollador Web con ReactJs
+# Desarrollador Web con ReactJs
 
-# Clase 3 - Ejercitación
+## Clase 3 - Ejercitación
 
-## Ejercicio
+### Ejercicio
 
-Crear una aplicación con react cli llamada "myapp".
-Desarrollar el maquetado de una pagina de detalle de un producto para un sitio de
-e-commerce,se deberán visualizar los siguientes datos:
-● Nombre
-● Descripción
-● Precio
-● SKU
-● Cantidad disponible
-Realizar un maquetado con los datos,desarrollado con componentes.
+Crear una aplicación con React CLI llamada "myapp". Desarrollar el maquetado de una página de detalle de un producto para un sitio de e-commerce. Se deberán visualizar los siguientes datos:
 
-### 1
+- Nombre
+- Descripción
+- Precio
+- SKU
+- Cantidad disponible
+
+Realizar un maquetado con los datos, desarrollado con componentes.
