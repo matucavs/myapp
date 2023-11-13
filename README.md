@@ -13,3 +13,5 @@ Crear una aplicación con React CLI llamada "myapp". Desarrollar el maquetado de
 - Cantidad disponible
 
 Realizar un maquetado con los datos, desarrollado con componentes.
+
+[![CodeFactor](https://www.codefactor.io/repository/github/matucavs/myapp/badge)](https://www.codefactor.io/repository/github/matucavs/myapp)
