@@ -10,6 +10,7 @@ function NavbarTop()  {
           <Nav className="me-auto">
             <Nav.Link href="#">Home</Nav.Link>
             <Nav.Link href="#f">Productos</Nav.Link>
+            <Nav.Link href="#f">Carrito<i className="bi bi-cart"></i></Nav.Link>
           </Nav>
         </Container>
       </Navbar>

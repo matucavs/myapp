@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "nombre": "Manzana Verde",
+    "descripción": "Manzana verde orgánica / agroecológica. Origen: Río Negro",
+    "precio": "500.00",
+    "sku": "FRU-MNZ0001",
+    "cantidadDisponible": "200",
+    "img": "https://img.freepik.com/fotos-premium/manzanas-verdes-bolsa-yute-gotas-agua-sobre-pared-oscura_168171-466.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Manzana Roja",
+    "descripción": "Manzana roja orgánica / agroecológica. Origen: Río Negro",
+    "precio": "400.00",
+    "sku": "FRU-MNZ0002",
+    "cantidadDisponible": "100",
+    "img": "https://img.freepik.com/premium-photo/red-apple-covered-with-water-drops-studio-light-apple-background_297535-6202.jpg"
+  }
+]
+  

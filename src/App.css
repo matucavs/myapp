@@ -1,4 +1,7 @@
-
+body, html {
+  height: 100%;
+  margin: 0;
+}
 .textoNg {
   font-size: larger;
   font-weight: bold;
@@ -6,10 +9,16 @@
 .title{
   text-transform: uppercase;
 }
+ .contenedor-tarjetas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+} 
 .cardtext{
   margin-top: 3rem;
   padding-left: 1rem;
 }
+
 .botones{
   position: absolute;
   text-align: end;
@@ -17,7 +26,6 @@
   bottom: 3rem;
 }
 i{
-  
   padding-right: 1rem;
 }
 .overlay {
@@ -26,6 +34,13 @@ i{
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)); /* Gradient que crea la transparencia */
-  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content {
+  flex: 1;
 }
