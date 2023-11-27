@@ -1,5 +1,3 @@
-//import Button from "react-bootstrap/Button";
-
 import Card from "react-bootstrap/Card";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "../App.css";
@@ -27,22 +25,16 @@ const ProductoCard = ({
           <Card.Img variant="top" src={img} />
           <Card.ImgOverlay>
             <Card.Text className="cardtext">
-              <span className="textoNg">Descripción:</span> {descripción}
+              <span>Descripción:</span> {descripción}
               <br />
-              <span className="textoNg">Precio:</span> ${precio}
+              <span>Precio:</span> ${precio}
               <br />
-              <span className="textoNg">SKU:</span> {sku}
+              <span>SKU:</span> {sku}
               <br />
-              <span className="textoNg">Cantidad Disponible:</span>{" "}
+              <span>Cantidad Disponible:</span>{" "}
               {cantidadDisponible}
             </Card.Text>
             <BotonComprar onClick={handleComprarClick} />
-
-            {/* <div className="botones">
-              <Button variant="primary" onClick={handleComprarClick}>
-                <i className="bi bi-cart"></i>Comprar
-              </Button>
-            </div> */}
           </Card.ImgOverlay>
         </Card.Body>
       </Card>
